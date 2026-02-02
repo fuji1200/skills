@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #FAF9F6; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header-bar {
+  background: #1C2833; padding: 20pt 40pt;
+}
+.header-bar h1 {
+  color: #FFFFFF; font-size: 32pt; margin: 0;
+}
+.content {
+  padding: 25pt 40pt; display: flex; flex-direction: column; gap: 20pt;
+}
+.intro {
+  color: #2C3E50; font-size: 16pt; margin: 0;
+}
+.vowel-row {
+  display: flex; justify-content: space-around; gap: 15pt;
+}
+.vowel-card {
+  background: #FFFFFF; border-radius: 10pt; padding: 15pt 20pt;
+  text-align: center; flex: 1;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  border-top: 4pt solid #E74C3C;
+}
+.vowel-card h2 {
+  color: #1C2833; font-size: 36pt; margin: 0 0 8pt 0;
+}
+.vowel-card p {
+  color: #7F8C8D; font-size: 12pt; margin: 0;
+}
+.romaji {
+  color: #E74C3C; font-size: 18pt; font-weight: bold;
+}
+.description {
+  display: flex; gap: 30pt; margin-top: 10pt;
+}
+.desc-box {
+  flex: 1; background: #1C2833; border-radius: 8pt; padding: 15pt;
+}
+.desc-box h3 {
+  color: #E74C3C; font-size: 14pt; margin: 0 0 8pt 0;
+}
+.desc-box p {
+  color: #FFFFFF; font-size: 12pt; margin: 0;
+}
+</style>
+</head>
+<body>
+<div class="header-bar">
+  <h1>母音（ぼいん）の分析</h1>
+</div>
+<div class="content">
+  <p class="intro">日本語の5つの母音は、全ての音節の基礎となります。</p>
+  <div class="vowel-row">
+    <div class="vowel-card">
+      <h2>あ</h2>
+      <p class="romaji">a</p>
+      <p>口を大きく開く</p>
+    </div>
+    <div class="vowel-card">
+      <h2>い</h2>
+      <p class="romaji">i</p>
+      <p>口を横に引く</p>
+    </div>
+    <div class="vowel-card">
+      <h2>う</h2>
+      <p class="romaji">u</p>
+      <p>唇を丸める</p>
+    </div>
+    <div class="vowel-card">
+      <h2>え</h2>
+      <p class="romaji">e</p>
+      <p>口を半開き</p>
+    </div>
+    <div class="vowel-card">
+      <h2>お</h2>
+      <p class="romaji">o</p>
+      <p>唇を丸く突出</p>
+    </div>
+  </div>
+  <div class="description">
+    <div class="desc-box">
+      <h3>前舌母音</h3>
+      <p>い・え：舌の前部が高くなる</p>
+    </div>
+    <div class="desc-box">
+      <h3>後舌母音</h3>
+      <p>う・お：舌の後部が高くなる</p>
+    </div>
+    <div class="desc-box">
+      <h3>中舌母音</h3>
+      <p>あ：舌が中央で低い位置</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

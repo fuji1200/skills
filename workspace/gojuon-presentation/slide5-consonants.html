@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #FAF9F6; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header-bar {
+  background: #1C2833; padding: 20pt 40pt;
+}
+.header-bar h1 {
+  color: #FFFFFF; font-size: 32pt; margin: 0;
+}
+.content {
+  padding: 20pt 40pt; display: flex; gap: 25pt;
+}
+.left-col {
+  flex: 1;
+}
+.right-col {
+  flex: 1;
+}
+.section-title {
+  color: #E74C3C; font-size: 18pt; margin: 0 0 12pt 0;
+  border-bottom: 2pt solid #E74C3C; padding-bottom: 5pt;
+}
+.consonant-item {
+  background: #FFFFFF; border-radius: 6pt; padding: 10pt 15pt;
+  margin-bottom: 8pt; display: flex; align-items: center;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+.consonant-label {
+  background: #1C2833; color: #FFFFFF; font-size: 14pt;
+  padding: 5pt 10pt; border-radius: 4pt; margin-right: 12pt;
+  min-width: 45pt; text-align: center;
+}
+.consonant-desc p {
+  color: #2C3E50; font-size: 12pt; margin: 0;
+}
+.consonant-type {
+  color: #7F8C8D; font-size: 10pt;
+}
+</style>
+</head>
+<body>
+<div class="header-bar">
+  <h1>子音行の分析</h1>
+</div>
+<div class="content">
+  <div class="left-col">
+    <h2 class="section-title">破裂音・破擦音</h2>
+    <div class="consonant-item">
+      <div class="consonant-label">か行</div>
+      <div class="consonant-desc">
+        <p>k音：無声軟口蓋破裂音</p>
+      </div>
+    </div>
+    <div class="consonant-item">
+      <div class="consonant-label">た行</div>
+      <div class="consonant-desc">
+        <p>t音：無声歯茎破裂音</p>
+      </div>
+    </div>
+    <div class="consonant-item">
+      <div class="consonant-label">は行</div>
+      <div class="consonant-desc">
+        <p>h音：無声声門摩擦音</p>
+      </div>
+    </div>
+    <h2 class="section-title">摩擦音</h2>
+    <div class="consonant-item">
+      <div class="consonant-label">さ行</div>
+      <div class="consonant-desc">
+        <p>s音：無声歯茎摩擦音</p>
+      </div>
+    </div>
+  </div>
+  <div class="right-col">
+    <h2 class="section-title">鼻音</h2>
+    <div class="consonant-item">
+      <div class="consonant-label">な行</div>
+      <div class="consonant-desc">
+        <p>n音：有声歯茎鼻音</p>
+      </div>
+    </div>
+    <div class="consonant-item">
+      <div class="consonant-label">ま行</div>
+      <div class="consonant-desc">
+        <p>m音：有声両唇鼻音</p>
+      </div>
+    </div>
+    <h2 class="section-title">その他</h2>
+    <div class="consonant-item">
+      <div class="consonant-label">や行</div>
+      <div class="consonant-desc">
+        <p>y音：有声硬口蓋接近音</p>
+      </div>
+    </div>
+    <div class="consonant-item">
+      <div class="consonant-label">ら行</div>
+      <div class="consonant-desc">
+        <p>r音：有声歯茎弾き音</p>
+      </div>
+    </div>
+    <div class="consonant-item">
+      <div class="consonant-label">わ行</div>
+      <div class="consonant-desc">
+        <p>w音：有声両唇軟口蓋接近音</p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

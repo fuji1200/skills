@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #FAF9F6; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header-bar {
+  background: #1C2833; padding: 20pt 40pt;
+}
+.header-bar h1 {
+  color: #FFFFFF; font-size: 32pt; margin: 0;
+}
+.content {
+  padding: 25pt 40pt; display: flex; gap: 30pt;
+}
+.section {
+  flex: 1;
+}
+.section-header {
+  display: flex; align-items: center; margin-bottom: 15pt;
+}
+.mark {
+  font-size: 36pt; margin-right: 12pt;
+}
+.dakuten { color: #E74C3C; }
+.handakuten { color: #3498DB; }
+.section-title {
+  margin: 0;
+}
+.section-title h2 {
+  color: #2C3E50; font-size: 22pt; margin: 0;
+}
+.section-title p {
+  color: #7F8C8D; font-size: 12pt; margin: 3pt 0 0 0;
+}
+.sound-grid {
+  display: flex; flex-wrap: wrap; gap: 8pt;
+}
+.sound-card {
+  background: #FFFFFF; border-radius: 8pt; padding: 12pt;
+  text-align: center; width: 55pt;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+.sound-card.dakuten { border-left: 3pt solid #E74C3C; }
+.sound-card.handakuten { border-left: 3pt solid #3498DB; }
+.kana {
+  font-size: 24pt; color: #1C2833; margin: 0;
+}
+.romaji {
+  font-size: 10pt; color: #7F8C8D; margin: 3pt 0 0 0;
+}
+.explanation {
+  background: #1C2833; border-radius: 8pt; padding: 15pt;
+  margin-top: 15pt;
+}
+.explanation p {
+  color: #FFFFFF; font-size: 12pt; margin: 0;
+}
+</style>
+</head>
+<body>
+<div class="header-bar">
+  <h1>濁音・半濁音</h1>
+</div>
+<div class="content">
+  <div class="section">
+    <div class="section-header">
+      <p class="mark dakuten">゛</p>
+      <div class="section-title">
+        <h2>濁音（だくおん）</h2>
+        <p>清音に濁点を加えた有声音</p>
+      </div>
+    </div>
+    <div class="sound-grid">
+      <div class="sound-card dakuten"><p class="kana">が</p><p class="romaji">ga</p></div>
+      <div class="sound-card dakuten"><p class="kana">ぎ</p><p class="romaji">gi</p></div>
+      <div class="sound-card dakuten"><p class="kana">ぐ</p><p class="romaji">gu</p></div>
+      <div class="sound-card dakuten"><p class="kana">げ</p><p class="romaji">ge</p></div>
+      <div class="sound-card dakuten"><p class="kana">ご</p><p class="romaji">go</p></div>
+      <div class="sound-card dakuten"><p class="kana">ざ</p><p class="romaji">za</p></div>
+      <div class="sound-card dakuten"><p class="kana">じ</p><p class="romaji">ji</p></div>
+      <div class="sound-card dakuten"><p class="kana">ず</p><p class="romaji">zu</p></div>
+      <div class="sound-card dakuten"><p class="kana">ぜ</p><p class="romaji">ze</p></div>
+      <div class="sound-card dakuten"><p class="kana">ぞ</p><p class="romaji">zo</p></div>
+      <div class="sound-card dakuten"><p class="kana">だ</p><p class="romaji">da</p></div>
+      <div class="sound-card dakuten"><p class="kana">ぢ</p><p class="romaji">di</p></div>
+      <div class="sound-card dakuten"><p class="kana">づ</p><p class="romaji">du</p></div>
+      <div class="sound-card dakuten"><p class="kana">で</p><p class="romaji">de</p></div>
+      <div class="sound-card dakuten"><p class="kana">ど</p><p class="romaji">do</p></div>
+      <div class="sound-card dakuten"><p class="kana">ば</p><p class="romaji">ba</p></div>
+      <div class="sound-card dakuten"><p class="kana">び</p><p class="romaji">bi</p></div>
+      <div class="sound-card dakuten"><p class="kana">ぶ</p><p class="romaji">bu</p></div>
+      <div class="sound-card dakuten"><p class="kana">べ</p><p class="romaji">be</p></div>
+      <div class="sound-card dakuten"><p class="kana">ぼ</p><p class="romaji">bo</p></div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-header">
+      <p class="mark handakuten">゜</p>
+      <div class="section-title">
+        <h2>半濁音（はんだくおん）</h2>
+        <p>は行に半濁点を加えた音</p>
+      </div>
+    </div>
+    <div class="sound-grid">
+      <div class="sound-card handakuten"><p class="kana">ぱ</p><p class="romaji">pa</p></div>
+      <div class="sound-card handakuten"><p class="kana">ぴ</p><p class="romaji">pi</p></div>
+      <div class="sound-card handakuten"><p class="kana">ぷ</p><p class="romaji">pu</p></div>
+      <div class="sound-card handakuten"><p class="kana">ぺ</p><p class="romaji">pe</p></div>
+      <div class="sound-card handakuten"><p class="kana">ぽ</p><p class="romaji">po</p></div>
+    </div>
+    <div class="explanation">
+      <p>半濁音は無声両唇破裂音[p]で、は行の[h]とは調音位置が異なります。</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
